@@ -23,7 +23,7 @@ export default function LoginPage() {
         By clicking continue, you agree to our <span className="underline">Terms of Use</span> and{" "}
         <span className="underline">Privacy Policy</span>.
       </p>
-      <p className="text-muted-foreground mt-10 text-xs">Assessment build. Sign-in is simulated with a single demo account, see NOTES.md.</p>
+      <p className="text-muted-foreground mt-10 text-xs">Assessment build. Sign-in is simulated: any email and password will do.</p>
     </main>
   )
 }

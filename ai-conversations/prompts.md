@@ -55,3 +55,7 @@ Tool: Claude Code (model claude-fable-5-1). Full transcript export is in this fo
 48. [screenshot of the sidebar] `make the sidebar items an expand/close drawer paradigm`
 49. `whenever i log in, make the notification bell look loaded with notifications`
 50. `provide an interaction and information aboutu the functionality of the viewer and extractor when the question mark in the header bar is clicked`
+51. `make any email and password word for login`
+52. `work*`
+53. `or make it prefilled/saved - so nico doesnt have to type it`
+54. `commit this`

@@ -7,7 +7,7 @@ pnpm install
 pnpm dev
 ```
 
-The app sits behind a simulated sign-in. Open http://localhost:3000, click **Continue with MSCI**, then use the demo account: email `joe@joewaine.co`, password `testDemo`. There is no user directory; that one account is accepted and the session is an HMAC-signed cookie (12h). Set `AUTH_SECRET` to override the development signing key.
+The app sits behind a simulated sign-in. Open http://localhost:3000, click **Continue with MSCI**, then click **Sign In** twice: both steps are prefilled, and any email address with any password is accepted. There is no user directory; the display name is derived from the email, and the session is an HMAC-signed cookie (12h). Set `AUTH_SECRET` to override the development signing key.
 
 The memo is at `/`. Funds list is at `/funds`, with the Halyard fund page linking to the memo and its source PDFs.
 

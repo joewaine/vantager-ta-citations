@@ -32,7 +32,7 @@ export async function submitPassword(_prev: FormState, formData: FormData): Prom
   if (!email) redirect("/login/identifier")
   const password = String(formData.get("password") ?? "")
   const user = authenticate(email, password)
-  if (!user) return { error: "Incorrect email or password." }
+  if (!user) return { error: "Enter your password." }
 
   const iat = Math.floor(Date.now() / 1000)
   const token = await signSession({ ...user, iat })

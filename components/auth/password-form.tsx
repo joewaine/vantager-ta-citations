@@ -15,7 +15,7 @@ function readPendingEmail() {
   return match ? decodeURIComponent(match.slice(PENDING_EMAIL_COOKIE.length + 1)) : null
 }
 
-export function PasswordForm() {
+export function PasswordForm({ initialPassword }: { initialPassword?: string }) {
   const router = useRouter()
   const [state, action, pending] = useActionState<FormState, FormData>(submitPassword, {})
   const [reveal, setReveal] = useState(false)
@@ -38,6 +38,7 @@ export function PasswordForm() {
         type={reveal ? "text" : "password"}
         label="Password"
         required
+        defaultValue={initialPassword}
         autoComplete="current-password"
         autoFocus
         error={state.error}
