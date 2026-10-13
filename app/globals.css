@@ -4,6 +4,11 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* msci.com display headings: Inter 600 with -0.04em tracking. */
+@utility tracking-display {
+  letter-spacing: -0.04em;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -49,72 +54,73 @@
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  /* MSCI palette, sampled from msci.com and the Diligence Platform UI. */
+  --background: #ffffff;
+  --foreground: #111111;
+  --card: #ffffff;
+  --card-foreground: #111111;
+  --popover: #ffffff;
+  --popover-foreground: #111111;
+  --primary: #1a3fd6;
+  --primary-foreground: #ffffff;
+  --secondary: #f4f5fd;
+  --secondary-foreground: #0626a9;
+  --muted: #f4f5f7;
+  --muted-foreground: #5f6670;
+  --accent: #eaedfb;
+  --accent-foreground: #0626a9;
+  --destructive: #e02c1c;
+  --border: #e3e6eb;
+  --input: #e3e6eb;
+  --ring: #1a3fd6;
+  --chart-1: #1a3fd6;
+  --chart-2: #4ba3c3;
+  --chart-3: #6a9a2a;
+  --chart-4: #d63a6a;
+  --chart-5: #e8702a;
+  --radius: 0.5rem;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #111111;
+  --sidebar-primary: #1a3fd6;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #eaedfb;
+  --sidebar-accent-foreground: #0626a9;
+  --sidebar-border: #e3e6eb;
+  --sidebar-ring: #1a3fd6;
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --background: #0b1020;
+  --foreground: #f5f6fa;
+  --card: #121a33;
+  --card-foreground: #f5f6fa;
+  --popover: #121a33;
+  --popover-foreground: #f5f6fa;
+  --primary: #6c84ef;
+  --primary-foreground: #0b1020;
+  --secondary: #1a2447;
+  --secondary-foreground: #f5f6fa;
+  --muted: #161e3a;
+  --muted-foreground: #a3abc2;
+  --accent: #1a2447;
+  --accent-foreground: #f5f6fa;
+  --destructive: #ff6b5e;
+  --border: rgba(255, 255, 255, 0.1);
+  --input: rgba(255, 255, 255, 0.15);
+  --ring: #6c84ef;
+  --chart-1: #6c84ef;
+  --chart-2: #4ba3c3;
+  --chart-3: #8fbf4a;
+  --chart-4: #e8628a;
+  --chart-5: #f08a4a;
+  --sidebar: #121a33;
+  --sidebar-foreground: #f5f6fa;
+  --sidebar-primary: #6c84ef;
+  --sidebar-primary-foreground: #0b1020;
+  --sidebar-accent: #1a2447;
+  --sidebar-accent-foreground: #f5f6fa;
+  --sidebar-border: rgba(255, 255, 255, 0.1);
+  --sidebar-ring: #6c84ef;
 }
 
 @layer base {
@@ -127,4 +133,89 @@
   html {
     @apply font-sans;
   }
+}
+/* Print: only the memo and its sources list, as a plain document. */
+@media print {
+  [data-print-hidden] {
+    display: none !important;
+  }
+  body {
+    background: #fff !important;
+  }
+  main {
+    padding: 0 !important;
+  }
+  article[data-memo] {
+    max-width: none !important;
+  }
+  a[data-source-number] {
+    text-decoration: none;
+  }
+  @page {
+    margin: 18mm 16mm;
+  }
+}
+
+/* High-contrast mode for washed-out displays (toggle in the account menu, or OS
+   "prefers more contrast"). Darker ink and borders, deeper brand blue, no pale tints,
+   heavier highlight, and non-color cues so nothing relies on a hue surviving the panel. */
+:root[data-contrast="high"] {
+  --foreground: #000000;
+  --card-foreground: #000000;
+  --popover-foreground: #000000;
+  --primary: #0a2bb5;
+  --primary-foreground: #ffffff;
+  --secondary: #dfe4ff;
+  --secondary-foreground: #061a73;
+  --muted: #e6e8ec;
+  --muted-foreground: #2f3540;
+  --accent: #cfd7ff;
+  --accent-foreground: #061a73;
+  --destructive: #b3170a;
+  --border: #7c8491;
+  --input: #7c8491;
+  --ring: #0a2bb5;
+  --chart-1: #0a2bb5;
+  --chart-2: #0e6f8a;
+  --chart-3: #2f6b0f;
+  --chart-4: #a3153f;
+  --chart-5: #b14a0a;
+  --sidebar-accent: #cfd7ff;
+  --sidebar-accent-foreground: #061a73;
+  --sidebar-border: #7c8491;
+}
+:root[data-contrast="high"] body {
+  -webkit-font-smoothing: auto;
+}
+:root[data-contrast="high"] .text-foreground\/90 {
+  color: var(--foreground);
+}
+:root[data-contrast="high"] [data-source-number] {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+:root[data-contrast="high"] [aria-label="Cited region"] {
+  border-width: 3px;
+  background-color: color-mix(in oklab, var(--primary) 32%, transparent);
+  box-shadow: 0 0 0 4px color-mix(in oklab, var(--primary) 30%, transparent);
+}
+:root[data-contrast="high"] [data-slot="badge"] {
+  border-color: currentColor;
+  font-weight: 600;
+}
+:root[data-contrast="high"] [data-slot="button"][data-variant="outline"],
+:root[data-contrast="high"] [data-slot="button"][data-variant="ghost"]:hover {
+  border-color: var(--foreground);
+}
+:root[data-contrast="high"] *:focus-visible {
+  outline: 3px solid var(--primary) !important;
+  outline-offset: 2px;
+}
+:root[data-contrast="high"] .shadow-xs,
+:root[data-contrast="high"] .shadow-sm,
+:root[data-contrast="high"] .shadow-md,
+:root[data-contrast="high"] .shadow-lg {
+  box-shadow: 0 0 0 1px var(--border);
 }

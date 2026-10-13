@@ -1,0 +1,456 @@
+[
+  {
+    "fundSlug": "halyard-growth-partners-iii",
+    "noteId": "q2-2026-monitoring-note",
+    "citations": [
+      {
+        "sourceNumber": 1,
+        "fileId": "q2-2026-quarterly-report",
+        "fileName": "Halyard Growth Partners III - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 2,
+        "bBox": {
+          "x": 62,
+          "y": 238,
+          "w": 488,
+          "h": 9.3
+        },
+        "highlight": {
+          "label": "Net asset value",
+          "value": "212.4"
+        },
+        "claim": "Halyard Growth Partners III reported a net asset value of $218.6 million at June 30, 2026"
+      },
+      {
+        "sourceNumber": 2,
+        "fileId": "q2-2026-quarterly-report",
+        "fileName": "Halyard Growth Partners III - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 2,
+        "bBox": {
+          "x": 62,
+          "y": 304,
+          "w": 488,
+          "h": 9.3
+        },
+        "highlight": {
+          "label": "TVPI (net)",
+          "value": "1.68x"
+        },
+        "claim": "Halyard Growth Partners III reported a net asset value of $218.6 million at June 30, 2026 . Net TVPI is 1.68x"
+      },
+      {
+        "sourceNumber": 3,
+        "fileId": "q2-2026-quarterly-report",
+        "fileName": "Halyard Growth Partners III - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 2,
+        "bBox": {
+          "x": 62,
+          "y": 326,
+          "w": 488,
+          "h": 9.3
+        },
+        "highlight": {
+          "label": "Net IRR",
+          "value": "17.9%"
+        },
+        "claim": "Halyard Growth Partners III reported a net asset value of $218.6 million at June 30, 2026 . Net TVPI is 1.68x and net IRR is 17.9%"
+      },
+      {
+        "sourceNumber": 4,
+        "fileId": "q1-2026-quarterly-report",
+        "fileName": "Halyard Growth Partners III - Q1 2026 Quarterly Report.pdf",
+        "pageNumber": 2,
+        "highlight": {
+          "label": "Net asset value",
+          "value": "204.0"
+        },
+        "claim": "I is 1.68x and net IRR is 17.9% , both above the median for 2021 vintage growth funds. NAV grew 4.1% from the prior quarter's $204.0 million"
+      },
+      {
+        "sourceNumber": 5,
+        "fileId": "q2-2026-quarterly-report",
+        "fileName": "Halyard Growth Partners III - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 1,
+        "bBox": {
+          "x": 54,
+          "y": 198,
+          "w": 439.5,
+          "h": 24.3
+        },
+        "highlight": {
+          "value": "the Fund completed the sale of Brightline Dental Partners to a strategic acquirer, generating gross proceeds of $64.2 million and a 3.1x gross multiple on invested capital"
+        },
+        "claim": " Fund sold Brightline Dental Partners to a strategic acquirer for gross proceeds of $64.2 million, a 3.1x gross multiple on invested capital"
+      },
+      {
+        "sourceNumber": 6,
+        "fileId": "q2-2026-quarterly-report",
+        "fileName": "Halyard Growth Partners III - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 3,
+        "bBox": {
+          "x": 571.5,
+          "y": 124,
+          "w": 18.5,
+          "h": 8.8
+        },
+        "highlight": {
+          "label": "Fair value",
+          "value": "38.9"
+        },
+        "claim": "Northwind Logistics remains the largest position. It is carried at $38.9 million"
+      },
+      {
+        "sourceNumber": 7,
+        "fileId": "q2-2026-quarterly-report",
+        "fileName": "Halyard Growth Partners III - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 3,
+        "bBox": {
+          "x": 493.5,
+          "y": 124,
+          "w": 18.5,
+          "h": 8.8
+        },
+        "highlight": {
+          "label": "Cost",
+          "value": "14.2"
+        },
+        "claim": "Northwind Logistics remains the largest position. It is carried at $38.9 million against a cost of $14.2 million"
+      },
+      {
+        "sourceNumber": 8,
+        "fileId": "q2-2026-quarterly-report",
+        "fileName": "Halyard Growth Partners III - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 3,
+        "bBox": {
+          "x": 60,
+          "y": 124,
+          "w": 678,
+          "h": 8.8
+        },
+        "highlight": {
+          "label": "Northwind Logistics, Inc.",
+          "value": "14.2 | 38.9 | 2.7x | 18.3%"
+        },
+        "claim": "mains the largest position. It is carried at $38.9 million against a cost of $14.2 million , which is 18.3% of NAV and a 2.7x gross multiple"
+      },
+      {
+        "sourceNumber": 9,
+        "fileId": "q2-2026-quarterly-report",
+        "fileName": "Halyard Growth Partners III - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 4,
+        "bBox": {
+          "x": 54,
+          "y": 182.5,
+          "w": 459.5,
+          "h": 24.3
+        },
+        "highlight": {
+          "value": "Northwind was valued at $38.9 million, representing 18.3% of the Fund's net asset value and a 2.7x gross multiple on cost"
+        },
+        "claim": "mains the largest position. It is carried at $38.9 million against a cost of $14.2 million , which is 18.3% of NAV and a 2.7x gross multiple"
+      },
+      {
+        "sourceNumber": 10,
+        "fileId": "q2-2026-quarterly-report",
+        "fileName": "Halyard Growth Partners III - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 4,
+        "claim": "Halyard values the portfolio quarterly under IPEV guidelines and ASC 820, with an annual independent audit"
+      },
+      {
+        "sourceNumber": 11,
+        "fileId": "lp-capital-account-q2-2026",
+        "fileName": "Capital Account Statement - Meridian - Q2 2026.pdf",
+        "pageNumber": 1,
+        "bBox": {
+          "x": 62,
+          "y": 224,
+          "w": 488,
+          "h": 9.3
+        },
+        "highlight": {
+          "label": "Contributions, since inception",
+          "value": "15,888,000"
+        },
+        "claim": "Meridian has contributed $15.9 million"
+      },
+      {
+        "sourceNumber": 12,
+        "fileId": "lp-capital-account-q2-2026",
+        "fileName": "Capital Account Statement - Meridian - Q2 2026.pdf",
+        "pageNumber": 1,
+        "bBox": {
+          "x": 62,
+          "y": 202,
+          "w": 488,
+          "h": 9.3
+        },
+        "highlight": {
+          "label": "Commitment",
+          "value": "20,000,000"
+        },
+        "claim": "Meridian has contributed $15.9 million of its $20.0 million commitment"
+      },
+      {
+        "sourceNumber": 13,
+        "fileId": "q2-2026-quarterly-report",
+        "fileName": "Halyard Growth Partners III - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 2,
+        "bBox": {
+          "x": 62,
+          "y": 194,
+          "w": 488,
+          "h": 9.3
+        },
+        "highlight": {
+          "label": "% of commitments called",
+          "value": "79.4%"
+        },
+        "claim": "Meridian has contributed $15.9 million of its $20.0 million commitment , in line with the Fund having called 79.4% of commitments"
+      },
+      {
+        "sourceNumber": 14,
+        "fileId": "lp-capital-account-q2-2026",
+        "fileName": "Capital Account Statement - Meridian - Q2 2026.pdf",
+        "pageNumber": 1,
+        "bBox": {
+          "x": 62,
+          "y": 356,
+          "w": 488,
+          "h": 9.3
+        },
+        "highlight": {
+          "label": "Unfunded commitment",
+          "value": "4,112,000"
+        },
+        "claim": " of its $20.0 million commitment , in line with the Fund having called 79.4% of commitments . The remaining $4.1 million unfunded commitment"
+      }
+    ]
+  },
+  {
+    "fundSlug": "cobalt-ridge-buyout-iv",
+    "noteId": "q2-2026-monitoring-note",
+    "citations": [
+      {
+        "sourceNumber": 1,
+        "fileId": "cobalt-ridge-q2-2026-quarterly-report",
+        "fileName": "Cobalt Ridge Buyout IV - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 2,
+        "bBox": {
+          "x": 62,
+          "y": 260,
+          "w": 488,
+          "h": 9.3
+        },
+        "highlight": {
+          "label": "Net asset value",
+          "value": "310.4"
+        },
+        "claim": "Cobalt Ridge Buyout IV reported a net asset value of $310.4 million at June 30, 2026"
+      },
+      {
+        "sourceNumber": 2,
+        "fileId": "cobalt-ridge-q2-2026-quarterly-report",
+        "fileName": "Cobalt Ridge Buyout IV - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 2,
+        "bBox": {
+          "x": 62,
+          "y": 326,
+          "w": 488,
+          "h": 9.3
+        },
+        "highlight": {
+          "label": "TVPI (net)",
+          "value": "1.96x"
+        },
+        "claim": "Cobalt Ridge Buyout IV reported a net asset value of $310.4 million at June 30, 2026 . Net TVPI is 1.96x"
+      },
+      {
+        "sourceNumber": 3,
+        "fileId": "cobalt-ridge-q2-2026-quarterly-report",
+        "fileName": "Cobalt Ridge Buyout IV - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 2,
+        "bBox": {
+          "x": 62,
+          "y": 348,
+          "w": 488,
+          "h": 9.3
+        },
+        "highlight": {
+          "label": "Net IRR",
+          "value": "21.3%"
+        },
+        "claim": "Cobalt Ridge Buyout IV reported a net asset value of $310.4 million at June 30, 2026 . Net TVPI is 1.96x and net IRR is 21.3%"
+      },
+      {
+        "sourceNumber": 4,
+        "fileId": "cobalt-ridge-q2-2026-quarterly-report",
+        "fileName": "Cobalt Ridge Buyout IV - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 2,
+        "bBox": {
+          "x": 62,
+          "y": 216,
+          "w": 488,
+          "h": 9.3
+        },
+        "highlight": {
+          "label": "% of commitments called",
+          "value": "92.4%"
+        },
+        "claim": "une 30, 2026 . Net TVPI is 1.96x and net IRR is 21.3% , top quartile for 2019 vintage buyout funds. The Fund has called 92.4% of commitments"
+      },
+      {
+        "sourceNumber": 5,
+        "fileId": "cobalt-ridge-q2-2026-quarterly-report",
+        "fileName": "Cobalt Ridge Buyout IV - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 1,
+        "bBox": {
+          "x": 54,
+          "y": 186.5,
+          "w": 439.5,
+          "h": 24.3
+        },
+        "highlight": {
+          "value": "the Fund completed the recapitalization of Summit Packaging, returning $58.0 million to limited partners while retaining a 35% stake in the business"
+        },
+        "claim": "In June, the Fund recapitalized Summit Packaging, returning $58.0 million to limited partners while retaining a 35% stake"
+      },
+      {
+        "sourceNumber": 6,
+        "fileId": "cobalt-ridge-q2-2026-quarterly-report",
+        "fileName": "Cobalt Ridge Buyout IV - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 2,
+        "bBox": {
+          "x": 62,
+          "y": 304,
+          "w": 488,
+          "h": 9.3
+        },
+        "highlight": {
+          "label": "DPI",
+          "value": "1.12x"
+        },
+        "claim": "rning $58.0 million to limited partners while retaining a 35% stake . Cumulative distributions now exceed paid-in capital, with DPI at 1.12x"
+      },
+      {
+        "sourceNumber": 7,
+        "fileId": "cobalt-ridge-q2-2026-quarterly-report",
+        "fileName": "Cobalt Ridge Buyout IV - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 1,
+        "claim": "No action required. Two further exits are expected in the second half of 2026"
+      }
+    ]
+  },
+  {
+    "fundSlug": "larkspur-ventures-ii",
+    "noteId": "q2-2026-monitoring-note",
+    "citations": [
+      {
+        "sourceNumber": 1,
+        "fileId": "larkspur-ventures-q2-2026-quarterly-report",
+        "fileName": "Larkspur Ventures II - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 2,
+        "bBox": {
+          "x": 62,
+          "y": 260,
+          "w": 488,
+          "h": 9.3
+        },
+        "highlight": {
+          "label": "Net asset value",
+          "value": "73.6"
+        },
+        "claim": "Larkspur Ventures II reported a net asset value of $73.6 million at June 30, 2026"
+      },
+      {
+        "sourceNumber": 2,
+        "fileId": "larkspur-ventures-q2-2026-quarterly-report",
+        "fileName": "Larkspur Ventures II - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 2,
+        "bBox": {
+          "x": 62,
+          "y": 326,
+          "w": 488,
+          "h": 9.3
+        },
+        "highlight": {
+          "label": "TVPI (net)",
+          "value": "1.07x"
+        },
+        "claim": "Larkspur Ventures II reported a net asset value of $73.6 million at June 30, 2026 . Net TVPI is 1.07x"
+      },
+      {
+        "sourceNumber": 3,
+        "fileId": "larkspur-ventures-q2-2026-quarterly-report",
+        "fileName": "Larkspur Ventures II - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 2,
+        "bBox": {
+          "x": 62,
+          "y": 348,
+          "w": 488,
+          "h": 9.3
+        },
+        "highlight": {
+          "label": "Net IRR",
+          "value": "6.2%"
+        },
+        "claim": "Larkspur Ventures II reported a net asset value of $73.6 million at June 30, 2026 . Net TVPI is 1.07x and net IRR is 6.2%"
+      },
+      {
+        "sourceNumber": 4,
+        "fileId": "larkspur-ventures-q2-2026-quarterly-report",
+        "fileName": "Larkspur Ventures II - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 2,
+        "bBox": {
+          "x": 62,
+          "y": 194,
+          "w": 488,
+          "h": 9.3
+        },
+        "highlight": {
+          "label": "Capital called",
+          "value": "69.0"
+        },
+        "claim": " 1.07x and net IRR is 6.2% , in line with expectations for a 2023 vintage fund early in its J-curve. Capital called to date is $69.0 million"
+      },
+      {
+        "sourceNumber": 5,
+        "fileId": "larkspur-ventures-q2-2026-quarterly-report",
+        "fileName": "Larkspur Ventures II - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 1,
+        "bBox": {
+          "x": 54,
+          "y": 186.5,
+          "w": 439.5,
+          "h": 24.3
+        },
+        "highlight": {
+          "value": "the Fund led a $12.0 million Series A in Kelp Robotics and completed follow-on investments in two existing portfolio companies, bringing the portfolio to fourteen active companies"
+        },
+        "claim": "d led a $12.0 million Series A in Kelp Robotics and completed two follow-on investments, bringing the portfolio to fourteen active companies"
+      },
+      {
+        "sourceNumber": 6,
+        "fileId": "larkspur-ventures-q2-2026-quarterly-report",
+        "fileName": "Larkspur Ventures II - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 2,
+        "bBox": {
+          "x": 62,
+          "y": 238,
+          "w": 488,
+          "h": 9.3
+        },
+        "highlight": {
+          "label": "Cumulative distributions",
+          "value": "0.0"
+        },
+        "claim": "otics and completed two follow-on investments, bringing the portfolio to fourteen active companies . No distributions have been made to date"
+      },
+      {
+        "sourceNumber": 7,
+        "fileId": "larkspur-ventures-q2-2026-quarterly-report",
+        "fileName": "Larkspur Ventures II - Q2 2026 Quarterly Report.pdf",
+        "pageNumber": 1,
+        "claim": "No action required. Expect roughly $9.0 million of capital calls over the next two quarters for reserved follow-ons"
+      }
+    ]
+  }
+]

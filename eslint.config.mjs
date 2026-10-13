@@ -7,6 +7,8 @@ const eslintConfig = defineConfig([
   ...nextTs,
   // Override default ignores of eslint-config-next.
   globalIgnores([
+    // Minified pdf.js worker copied from node_modules; not project code.
+    "public/**",
     // Default ignores of eslint-config-next:
     ".next/**",
     "out/**",

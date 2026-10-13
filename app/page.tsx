@@ -1,12 +1,9 @@
-import Memo from "@/content/memo.mdx"
-import { TooltipProvider } from "@/components/ui/tooltip"
+import { HALYARD_SLUG } from "@/lib/funds"
+import { NOTE_ID, getMemo } from "@/lib/memos"
+import { MemoPage } from "@/components/memo-page"
 
 export default function Page() {
-  return (
-    <TooltipProvider delayDuration={150}>
-      <main className="mx-auto w-full max-w-3xl px-6 py-16">
-        <Memo />
-      </main>
-    </TooltipProvider>
-  )
+  const memo = getMemo(HALYARD_SLUG, NOTE_ID)
+  if (!memo) throw new Error("The assessment memo is not registered in lib/memos.ts")
+  return <MemoPage memo={memo} />
 }
