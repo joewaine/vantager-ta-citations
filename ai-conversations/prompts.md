@@ -59,3 +59,4 @@ Tool: Claude Code (model claude-fable-5-1). Full transcript export is in this fo
 52. `work*`
 53. `or make it prefilled/saved - so nico doesnt have to type it`
 54. `commit this`
+55. `can you remove/cancel the pr completely - i will just rezip it and provide it via google drive link`
